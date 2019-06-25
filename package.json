@@ -1,0 +1,24 @@
+{
+  "name": "vue-cli-plugin-markdown",
+  "version": "0.1.0",
+  "description": "A Vue Cli 3 plugin to import markdown with marked",
+  "keywords": [
+    "markdown",
+    "vue-markdown",
+    "vue",
+    "cli",
+    "vue-cli",
+    "vue-cli-plugin",
+    "webpack",
+    "marked"
+  ],
+  "repository": "https://github.com/luizotcarvalho/vue-cli-plugin-markdown.git",
+  "author": "Luiz Ot Carvalho <me@luizotcarvalho.com.br>",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "html-loader": "^0.5.5",
+    "markdown-loader": "^5.0.0"
+  }
+}
