@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-markdown",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Vue Cli 3 plugin to import markdown with marked",
   "keywords": [
     "markdown",
