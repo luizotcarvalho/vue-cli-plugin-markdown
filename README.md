@@ -13,3 +13,24 @@ Then, install and invoke the generator of vue-cli-plugin-markdown by running:
 `vue add markdown`
 
 That's It! You're ready to import or require .md files!
+
+## Example:
+
+```javascript
+<template>
+  <div v-html="markdown"/>
+</template>
+
+<script>
+import markdown from "@/assets/markdown.md";
+
+export default {
+  data() {
+    return {
+      markdown
+    };
+  }
+};
+</script>
+
+```
